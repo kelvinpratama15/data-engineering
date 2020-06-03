@@ -1,0 +1,5 @@
+1. data from multiple source (Mongo DB, RDBMS, Text file or JSON) are imported to staging database with ETL process
+2. create star scheme. consist fact and dimension table for every analytical point of view 
+(using slowly changing dimension for updating content of dimension table and use timestamp in fact table so we can 
+aggregate, group, and filter by time range)
+3. for every single star scheme, create the data visualization trough tools like Tableau, ClickView, or PowerBI.
